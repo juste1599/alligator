@@ -1,0 +1,240 @@
+@CHARSET "UTF-8";
+
+
+body {
+    color: #8A8985; /* teksto spalva */
+    font-family: Candara; /*Arial, Helvetica, sans-serif;  šriftas */
+    font-size: 13px; /* teksto dydis */
+    background-color: #474B4B ; /*cdcdc0; #e3e3e3;*/
+
+}
+a {
+    color: #424242;
+}
+
+/*!* pagrindinis puslapio blokas *!*/
+/*#body {*/
+/*    width: 1300px;*/
+/*    margin: 0px auto; !* bloko centravimas puslapio viduje *!*/
+/*}*/
+
+/*!* viršutinė puslapio dalis *!*/
+/*#header {*/
+/*    width: 1300px;*/
+/*    height: 200px;*/
+/*    background-image: url("pav3.png");*/
+/*    background-color: #cccccc;*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    !*border-top: 5px solid silver;*/
+/*    border-bottom: 5px solid silver;*!*/
+/*    float: left;*/
+
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+
+/*}*/
+
+/*#slogan {*/
+/*    margin: 0px 0px 0px 0px;*/
+/*    color: #424242;!*#2A2B2C;*!*/
+/*    font-size: 50px;*/
+/*    font-weight: 500;*/
+/*    font-family: Lucida Sans; !*, Georgia; !* šriftas *!*/
+/*    letter-spacing: -5px;*/
+/*    background-color:#8a7b6b29;*/
+/*    text-align: center;*/
+/*    width:1300px;*/
+/*}*/
+
+
+/*!* turinio blokelis *!*/
+/*#content {*/
+/*    width: 1300px;*/
+/*    background-color: #f2f1eef7;*/
+/*    float: left;*/
+/*}*/
+
+
+/*!* pagrindinio meniu blokelis *!*/
+/*#topMenu {*/
+/*    width: 1300px;*/
+/*    height: 40px;*/
+/*    float: left;*/
+/*    font-size: 15px;*/
+/*    text-transform: uppercase;*/
+/*    background-color: #515455;!*#f2f1eef7 ;*!*/
+
+
+/*}*/
+/*#topMenu li {*/
+/*    float: left; !* nustatome horizontalųjį meniu punktų lygiavimą *!*/
+/*    list-style: none; !* paslepiame sąrašo stiliaus savybes *!*/
+/*    margin: 11px 15px 12px 15px; !* nustatome meniu punktų ribas *!*/
+/*}*/
+
+/*#topMenu li a {*/
+/*    text-decoration: none; !* paslepiame nuorodos pabraukimą *!*/
+/*    color: #f2f1eef7;*/
+/*    background-color: #515455 ;*/
+/*}*/
+
+/*#topMenu li a:hover {*/
+/*    text-decoration: underline; !* nustatome nuorodos pabraukimą užvedus pele *!*/
+/*}*/
+
+/*#topMenu li a.active {*/
+/*    text-decoration: underline; !* nustatome aktyvaus meniu punkto pabraukimą *!*/
+/*    color:#B38867 ;*/
+/*}*/
+
+
+/*!* kairysis puslapio blokelis *!*/
+/*#contentLeft {*/
+/*    width: 200px;*/
+/*    float: left; !* blokelio pozicija *!*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*#contentLeft li {*/
+/*    list-style: circle;*/
+/*    margin: 10px 0px 10px 25px;*/
+/*}*/
+
+/*#contentLeft li a {*/
+/*    text-decoration: none;*/
+/*    color:#8A8985;*/
+/*    font-size: 13px;*/
+
+/*}*/
+
+/*#contentLeft li a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*#contentLeft li a.active {*/
+/*    text-decoration: underline;*/
+/*    color:#B38867 ;*/
+/*}*/
+
+/*#contentLeft h2 {*/
+/*    font-size: 20px;*/
+/*    font-weight: normal;*/
+/*    color: #8A8985;*/
+/*    letter-spacing: -0.5px;*/
+/*    margin: 15px 0px 15px 18px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+
+/*!* turinio blokelis *!*/
+/*#contentRight {*/
+/*    width: 1000px;*/
+/*    min-height: 470px; !* minimalus blokelio aukštis *!*/
+/*    border-left: 2px solid silver;*/
+/*    float: left; !* blokelio pozicija *!*/
+/*    color:#424242;*/
+/*    font-size:16px;*/
+/*}*/
+/*#img-apie{*/
+/*    margin-left: 20px;*/
+/*    align-items:center;*/
+/*}*/
+
+/*h2#pageTitle {*/
+/*    font-size: 26px;*/
+/*    margin: 10px 0px 10px 15px;*/
+/*    font-weight: normal;*/
+/*    border-bottom: 2px solid silver;*/
+/*}*/
+
+/*.newsItem {*/
+/*    font-size:13px;*/
+/*    margin-top:10px;*/
+/*    padding-bottom: 20px;*/
+/*    border-bottom: 1px solid silver;*/
+/*    overflow: auto;*/
+/*}*/
+/*.newsItem li {*/
+/*    float: left; !* nustatome horizontalųjį meniu punktų lygiavimą *!*/
+/*    list-style: circle; !* paslepiame sąrašo stiliaus savybes *!*/
+/*    margin-left: 30px;*/
+/*}*/
+
+/*.newsItemLast {*/
+/*    margin-top:10px;*/
+/*    border: 0px;*/
+/*}*/
+
+/*#contentRight p {*/
+/*    margin-top:2px;*/
+/*    margin-left: 15px;*/
+/*    margin-right: 15px;*/
+
+/*}*/
+
+/*.newsItem p.title {*/
+/*    font-size:16px;*/
+/*    text-decoration:underline;*/
+/*    margin-top:10px;*/
+
+
+/*}*/
+/*#contentRight h4 {*/
+/*  !*  font-style:bold;*!*/
+/*    margin-left: 15px;*/
+/*    margin-right:15px;*/
+/*    margin-bottom:0px;*/
+/*    font-size:13px;*/
+/*    font-weight: 800;*/
+/*}*/
+
+
+/*!* apatinė puslapio dalis *!*/
+/*#footer {*/
+/*    width: 1300px;*/
+/*    height: 60px;*/
+/*    float: left;*/
+/*    background-color: #515455;*/
+/*    color: #fff;*/
+
+/*}*/
+/*#footer h2{*/
+/*    font-size: 12px;*/
+/*    font-weight: normal;*/
+/*    color: #B38867;*/
+/*    letter-spacing: -0.5px;*/
+/*    margin: 10px 0px 15px 10px;*/
+/*}*/
+/*ul, li {*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*    !* list-style: circle;*!*/
+/*}*/
+/*.links > a {*/
+/*    color: red;*/
+/*    padding: 0 25px;*/
+/*    font-size: 13px;*/
+/*    font-weight: 600;*/
+/*    letter-spacing: .1rem;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.custom-btn {*/
+/*    max-width: 100%;*/
+/*    padding: 6px 30px;*/
+/*    font-size: 12px;*/
+/*    text-align: right;*/
+/*}*/
+/*.custom-btn2 {*/
+/*    max-width: 50%;*/
+/*    padding: 5px 5px;*/
+/*    font-size: 5px;*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*}*/
+
+
+
+
