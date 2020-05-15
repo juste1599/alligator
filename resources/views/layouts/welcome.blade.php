@@ -19,8 +19,7 @@
         }
         .jumbotron {
             margin-bottom: 0px;
-            padding-top: 2%;
-            padding-bottom: 2%;
+            padding: 3vh;
         }
         .page-header{
             border-bottom: 0px solid;
@@ -28,15 +27,35 @@
         @media only screen and (max-width: 600px) {
             .galva {background: red;}
         }
-        .img-responsive {
-            margin:0 auto;
-            margin-left: 10%;
+        .img-col{
+            /*margin: auto 3%;*/
+            min-width: 50px;
+            /*padding: 0 0;*/
+            margin-right: 3px;
         }
-        .jumbotron h1 {
-            font-size: 32px;
-            padding: 1vh 0;
+        .img {
+            max-width: 200px;
+            min-width: 50px;
+            width: 100%;
+            /*padding: 2% 2%;*/
 
         }
+
+        .vertical-align {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        #name{
+            font-size: 32px;
+        }
+        @media only screen and (max-width: 500px) {
+           #name{
+                font-size: unset;
+            }
+        }
+
         /** {*/
         /*    box-sizing: border-box;*/
         /*}*/
@@ -76,17 +95,15 @@
     <p>Attention! VAT is not included!</p>
 </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron container-fluid">
 {{--        <div class="container">--}}
-            <div class="row align-items-center">
-
-                <div class="col-sm-2">
-                    <img class="img-responsive " style="width: 200px; height: auto;" src="{{asset('images/log.png')}}" />
+            <div class="row vertical-align" >
+                <div class=" col-xs-2 col-md-2 img-col">
+                    <img class="img" src="{{asset('images/log.png')}}" />
 
                 </div>
-                <div class="col-sm-10">
-                    <h1>Alligator PDR tools</h1>
-{{--                    <h2>Little Test</h2>--}}
+                <div class="col-xs-10 col-md-10 ">
+                    <h1 id="name">Alligator PDR tools</h1>
                 </div>
             </div>
 {{--        </div>--}}

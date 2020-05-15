@@ -19,21 +19,7 @@ a {
 .galva p {
     margin: 0;
 }
-.container img {
-    margin-top: 40px;
-    position: relative;
-    z-index: 1;
-    width: 80%;
-}
-/* Remove the jumbotron's default bottom margin */
-.jumbotron {
-   margin-bottom: 0px;
-}
-.jumbotron h1{
-    margin-bottom: 20px;
-    font-size: 10px;
-    font-family: "Arial";
-}
+
 
 /*
         * Sidebar
